@@ -1,0 +1,55 @@
+
+/*
+body{
+ width: 100%;
+ height: 100vh;
+}*/
+
+@import url("http://fonts.googleapis.com/css?family=Bad+Script" );
+@import url("http://fonts.googleapis.com/css?family=Muli");
+
+#header {
+    padding: .2em 1em .2em 0 ;
+    top: 0;
+
+    width: 100%
+    height: 4em;    
+    border-bottom: 2px solid #A9A9A9;
+    background: #FCFCFC;
+}
+
+#header h1 {
+    margin: .2em 0 .2em 0;
+    font-family: 'Bad Script', cursive;   
+    font-size: 3em;
+}
+
+#controls {
+ 
+    float: left;
+    padding: 0 0 0 0;
+    left: 0;
+    height: calc(100vh - 8em);
+    width: 11em;
+    /* Overflow auto will give scroll bars if needed. */
+    overflow-y: auto;
+    overflow-x: auto;
+    background: #FCFCFC;    
+    border-right: 2px solid #A9A9A9
+    
+}
+
+#controls h2{
+    font-family: 'Muli', sans-serif;
+}
+
+#main-canvas{
+    float: left;
+    right: 0;
+    border: 2px solid black;
+}
+
+#mainCanvas{
+    height: 100%;
+    width: 100%;
+}
